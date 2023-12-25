@@ -25,7 +25,7 @@ function startTimer (duration, display){
 }
 
 window.onload = function(){
-    let duration = 60*1
+    let duration = 60*30
     display = document.querySelector("#timer")
     startTimer(duration, display) // iniciando o timer
 }
